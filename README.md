@@ -7,15 +7,16 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run electron:dev
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+ON_PATH=/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python npm run electron:build
+npm run electron:build
 ```
 
-### Lints and fixes files
+### Compi
 ```
 npm run lint
 ```
